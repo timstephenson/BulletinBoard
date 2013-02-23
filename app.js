@@ -1,15 +1,16 @@
-// A.1
+// Setup express
 var express = require('express'),
     app = express();
     server = require('http').createServer(app),
     io = require('socket.io').listen(server);
  
-// A.2
+// Serve files from the public directory.
+// Not really using express in this case.
 app.configure(function() {
     app.use(express.static(__dirname + '/public'));
 });
  
-// A.3
+// Setup a port development.
 server.listen(1337);
 
 // Configure io callbacks.
