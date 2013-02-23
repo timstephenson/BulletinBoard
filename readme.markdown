@@ -1,4 +1,4 @@
-# Angular.JS Bulletin Baord
+# Angular.JS Bulletin Board
 
 Just learning a little about Angular.JS and Socket.io
 
